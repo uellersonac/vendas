@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div>
+
+  <nav id="nav" class="flex shadow-lg h-20 flex-wrap items-center">
+
+    <button id="toggleButton" class="md:hidden m-8 block">
+      <svg xmlns="http://www.w3.org/2000/svg" class=" h-6 inline" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+      </svg>
+    </button>
+    
+
+    <ul id="navMenu" class="hidden md:flex flex-wrap md:items-center poppins-regular">
+      <a href="#"><li class="inline-block p-6 hover:text-blue-500 hover:poppins-bold">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 inline" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+        </svg>
+        
+        Para venda</li></a>
+      <a href="#"><li class="inline-block p-6 hover:text-blue-500">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 inline" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+        </svg>
+        
+        Para doações</li></a>
+      <a href="#"><li class="inline-block p-6 hover:text-blue-500">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 inline" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+        </svg>
+        
+        Contato</li></a>
+    </ul>
+  </nav>
+
+</div>
+
+<div class="m-6 flex flex-wrap flex-col items-center">
+  <aside class="rounded-lg p-5 bg-gray-100 md:w-3/4 w-11/12 flex flex-wrap justify-center items-center">
+
+
+    <div class="flex justify-center flex-wrap poppins-bold max-w-72 text-2xl p-5">
+      <div class="w-36">
+        <img class="rounded-full h-36 w-36" src="foto.jpg">
+      </div>
+      <p>"Nossa mudança, sua oportunidade!"</p>
+    </div>
+
+    <div class=" poppins-regular max-w-96">
+      <strong class="text-center">Olá! Somos Uellerson e Bruna!</strong>
+    
+ <p class="mb-5 mt-5">Mobiliamos uma casa inteira em Pilar, mas agora estamos de mudança e não vamos levar tudo!</p> 
+
+  <p class="mb-5">Estamos vendendo produtos seminovos, com apenas 1 ano de uso, a preços acessíveis.</p>
+
+  Confira o catálogo abaixo e, se algo chamar sua atenção, só falar com a gente!
+  </p>
+    </div>
+
+  </aside>
+
+  <main class="mt-6 grid md:w-3/4 w-11/12 poppins-regular grid-cols-1 md:grid-cols-2 gap-6">
+
+    <div class="shadow-lg text-2xl w-full mb-2 h-12 col-span-full">
+    <span class="ml-6 poppins-bold block">Catálogo</span>
+    </div>
+
+    <a class="hover:translate-y-[-5px] transition-transform duration-300" href="">
+      <div id="produto1" class="border-gray-200  w-full border-2 border-gray-100">
+        
+
+          <div class="flex flex-wrap items-center">
+            <div class="m-2 flex items-center flex-wrap justify-center">
+              <img class="h-56" src="produto1.jpg">
+            </div>
+
+            <div class="justify-right">
+              <div>
+                <p class="text-l">Guarda-roupa hhhss</p>
+              </div>
+
+              <div class="text-xl poppins-bold">
+                R$ 500,00
+              </div>
+
+              <div class="mt-6">
+                <svg class="h-6 inline text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>
+                <p class="text-gray-500 inline">à vista</p>
+              </div>
+
+              <div>
+                <svg class="h-6 inline text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z" />
+                </svg>
+                <p class="text-gray-500 inline">ou 5x R$ 120,00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex justify-center bg-blue-500">
+            <span class="text-white poppins-bold">Comprar</span>
+          </div>
+      </div>
+    </a>
+
+
+
+
+
+
+    <div id="produto2" class="border-gray-200 h-60 w-full border-2 border-gray-100">
+      <p>produto 2</p>
+    </div>
+
+    <div id="produto3" class="border-gray-200 h-60 w-full border-2 border-gray-100">
+      <p>produto 2</p>
+    </div>
+
+    <div id="produto3" class="border-gray-200 h-60 w-full border-2 border-gray-100">
+      <p>produto 2</p>
+    </div>
+
+  </main>
+
+</div>
+
+<script>
+  document.getElementById("toggleButton").addEventListener("click", function () {
+    const navMenu = document.getElementById("navMenu");
+    navMenu.classList.toggle("hidden");
+    navMenu.classList.toggle("overflow-y-auto");
+
+    const navItems = navMenu.querySelectorAll("li");
+    
+    navItems.forEach((item) => {
+
+    });
+
+  });
+
+  document.getElementById("toggleButton").addEventListener("click", function (){
+    const nav = document.getElementById("nav");
+    nav.classList.toggle("h-auto");
+    
+  });
+</script>
+
+  
+</body>
+</html>
