@@ -7,11 +7,11 @@
   <title>Document</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="bg-gray-100">
 
 <div>
 
-  <nav id="nav" class="flex shadow-lg h-20 flex-wrap items-center">
+  <nav id="nav" class="fixed top-0 w-full bg-white flex shadow-lg h-20 flex-wrap items-center">
 
     <button id="toggleButton" class="md:hidden m-8 block">
       <svg xmlns="http://www.w3.org/2000/svg" class=" h-6 inline" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -44,8 +44,8 @@
 
 </div>
 
-<div class="m-6 flex flex-wrap flex-col items-center">
-  <aside class="rounded-lg p-5 bg-gray-100 md:w-3/4 w-11/12 flex flex-wrap justify-center items-center">
+<div class="mb-6 mt-32 flex flex-wrap flex-col items-center ">
+  <aside class="shadow-lg rounded-lg p-5 bg-gray-100 md:w-3/4 w-11/12 flex flex-wrap justify-center items-center bg-white">
 
 
     <div class="flex justify-center flex-wrap poppins-bold max-w-72 text-2xl p-5">
@@ -58,28 +58,28 @@
     <div class=" poppins-regular max-w-96">
       <strong class="text-center">Olá! Somos Uellerson e Bruna!</strong>
     
- <p class="mb-5 mt-5">Mobiliamos uma casa inteira em Pilar, mas agora estamos de mudança e não vamos levar tudo!</p> 
+        <p class="mb-5 mt-5">Mobiliamos uma casa inteira em Pilar, mas agora estamos de mudança e não vamos levar tudo!</p> 
 
-  <p class="mb-5">Estamos vendendo produtos seminovos, com apenas 1 ano de uso, a preços acessíveis.</p>
+        <p class="mb-5">Estamos vendendo produtos seminovos, com apenas 1 ano de uso, a preços acessíveis.</p>
 
-  Confira o catálogo abaixo e, se algo chamar sua atenção, só falar com a gente!
-  </p>
+        Confira o catálogo abaixo e, se algo chamar sua atenção, só falar com a gente!
+
+        <p>Também estamos doando alguns itens!</p>
     </div>
-
   </aside>
 
   <main class="mt-6 grid md:w-3/4 w-11/12 poppins-regular grid-cols-1 md:grid-cols-2 gap-6">
 
-    <div class="shadow-lg text-2xl w-full mb-2 h-12 col-span-full">
-    <span class="ml-6 poppins-bold block">Catálogo</span>
+    <div class="flex text-2xl w-full mb-2 h-16 col-span-full items-center">
+    <span class="ml-6 poppins-bold">Catálogo</span>
     </div>
 
     <a class="hover:translate-y-[-5px] transition-transform duration-300" href="">
-      <div id="produto1" class="border-gray-200  w-full border-2 border-gray-100">
+      <div id="produto1" class="bg-white shadow-lg border-gray-200 w-full border-2 border-gray-100">
         
 
-          <div class="flex flex-wrap items-center">
-            <div class="m-2 flex items-center flex-wrap justify-center">
+          <div class="flex flex-wrap justify-center items-center">
+            <div class="m-2 flex items-center flex-wrap">
               <img class="h-56" src="produto1.jpg">
             </div>
 
@@ -108,7 +108,7 @@
             </div>
           </div>
 
-          <div class="flex justify-center bg-blue-500">
+          <div class="flex h-8 mb-0 justify-center bg-blue-500 items-center">
             <span class="text-white poppins-bold">Comprar</span>
           </div>
       </div>
