@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
-  <title>Document</title>
+  <title>Vendas e Doações</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body class="bg-gray-100">
@@ -27,7 +27,7 @@
           <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
         </svg>
         
-        Para venda</li></a>
+        Para vendas</li></a>
       <a href="#"><li class="inline-block p-2 hover:text-blue-500">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 inline" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
           <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
@@ -63,9 +63,9 @@
 
         <p class="mb-5">Estamos vendendo produtos seminovos, com apenas 1 ano de uso, a preços acessíveis.</p>
 
-        Confira o catálogo abaixo e, se algo chamar sua atenção, só falar com a gente!
+        <p class="mb-5">Confira o catálogo abaixo e, se algo chamar sua atenção, só falar com a gente!</p>
 
-        <p>Também estamos doando alguns itens!</p>
+        <p>Também estamos doando alguns itens! Para verificar, basta acessar o link da barra de navegação!</p>
     </div>
   </aside>
 
@@ -75,36 +75,37 @@
     <span class="ml-6 poppins-bold">Catálogo</span>
     </div>
 
-    <a class="hover:translate-y-[-5px] transition-transform duration-300" href="">
-      <div id="produto1" class="bg-white shadow-lg border-gray-200 w-full border-2 border-gray-100">
-        
+    <!-- PRODUTO 1 -->
+    <a class="hover:translate-y-[-5px] transition-transform duration-300" target="_blank" href="https://wa.me/5574999676996?text=Ol%C3%A1%2C%20estou%20interessado(a)%20na%20*Mesa%20de%20jantar%204%20lugares%20-%20Kappesberg*">
 
-          <div class="flex flex-wrap justify-center items-center">
+      <div id="produto1" class="bg-white shadow-lg border-gray-200 w-full border-2 border-gray-100 relative">
+    
+          <div class="p-2 flex md:flex-nowrap flex-wrap justify-center items-center">
             <div class="m-2 flex items-center flex-wrap">
-              <img class="h-56" src="produto1.jpg">
+              <img class="h-56" src="produto1.jfif">
             </div>
 
-            <div class="justify-right">
-              <div>
-                <p class="text-l">Guarda-roupa hhhss</p>
+            <div class="md:justify-right">
+              <div class="h-auto text-center md:text-left">
+                Mesa de jantar 4 lugares - Kappesberg
               </div>
 
-              <div class="text-xl poppins-bold">
-                R$ 500,00
+              <div class="text-xl poppins-bold text-center md:text-left">
+                R$ 1.190,00
               </div>
 
-              <div class="mt-6">
+              <div class="mt-6 text-center md:text-left">
                 <svg class="h-6 inline text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                 </svg>
                 <p class="text-gray-500 inline">à vista</p>
               </div>
 
-              <div>
+              <div class="text-center md:text-left">
                 <svg class="h-6 inline text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z" />
                 </svg>
-                <p class="text-gray-500 inline">ou 5x R$ 120,00</p>
+                <p class="text-gray-500 inline">ou 3x R$ 425,00</p>
               </div>
             </div>
           </div>
@@ -112,29 +113,246 @@
           <div class="flex h-8 mb-0 justify-center bg-blue-500 items-center">
             <span class="text-white poppins-bold">Comprar</span>
           </div>
+
+<!--           <div class="absolute inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center"> <span class="text-white text-xl poppins-bold">Vendido</span></div>      -->
+
       </div>
+
     </a>
 
+    <!-- PRODUTO 2 -->
+    <a class="hover:translate-y-[-5px] transition-transform duration-300" target="_blank" href="https://wa.me/5574991967696?text=Ol%C3%A1%2C%20estou%20interessado(a)%20na%20*Lavadora%2FCentrifugadora%20de%20Roupas%2C%2013%20kg-%20Brastemp*">
 
+      <div id="produto2" class="bg-white shadow-lg border-gray-200 w-full border-2 border-gray-100 relative">
+    
+          <div class="p-2 flex md:flex-nowrap flex-wrap justify-center items-center">
+            <div class="m-2 flex items-center flex-wrap">
+              <img class="h-56" src="produto2.jfif">
+            </div>
 
+            <div class="md:justify-right">
+              <div class="h-auto text-center md:text-left">
+                Lavadora/Centrifugadora de Roupas, 13 kg- Brastemp
+              </div>
 
+              <div class="text-xl poppins-bold text-center md:text-left">
+                R$ 1.400,00
+              </div>
 
+              <div class="mt-6 text-center md:text-left">
+                <svg class="h-6 inline text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>
+                <p class="text-gray-500 inline">à vista</p>
+              </div>
 
-    <div id="produto2" class="border-gray-200 h-60 w-full border-2 border-gray-100">
-      <p>produto 2</p>
-    </div>
+              <div class="text-center md:text-left">
+                <svg class="h-6 inline text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z" />
+                </svg>
+                <p class="text-gray-500 inline">ou 3x R$ 500,00</p>
+              </div>
+            </div>
+          </div>
 
-    <div id="produto3" class="border-gray-200 h-60 w-full border-2 border-gray-100">
-      <p>produto 2</p>
-    </div>
+          <div class="flex h-8 mb-0 justify-center bg-blue-500 items-center">
+            <span class="text-white poppins-bold">Comprar</span>
+          </div>
 
-    <div id="produto3" class="border-gray-200 h-60 w-full border-2 border-gray-100">
-      <p>produto 2</p>
-    </div>
+<!--           <div class="absolute inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center"> <span class="text-white text-xl poppins-bold">Vendido</span></div>      -->
+
+      </div>
+
+    </a>
+
+    <!-- PRODUTO 3 -->
+    <a class="hover:translate-y-[-5px] transition-transform duration-300" target="_blank" href="https://wa.me/5574991967696?text=Ol%C3%A1%2C%20estou%20interessado(a)%20no%20*Ar%20condicionado%20Eco%20Inverter%209.000%20btus%20-%20Philco*
+    ">
+
+      <div id="produto3" class="bg-white shadow-lg border-gray-200 w-full border-2 border-gray-100 relative">
+    
+          <div class="p-2 flex md:flex-nowrap flex-wrap justify-center items-center">
+            <div class="m-2 flex items-center flex-wrap">
+              <img class="h-56" src="produto3.jfif">
+            </div>
+
+            <div class="md:justify-right">
+              <div class="h-auto text-center md:text-left">
+                Ar condicionado Eco Inverter 9.000 btus - Philco
+              </div>
+
+              <div class="text-xl poppins-bold text-center md:text-left">
+                R$ 1.750,00
+              </div>
+
+              <div class="mt-6 text-center md:text-left">
+                <svg class="h-6 inline text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>
+                <p class="text-gray-500 inline">à vista</p>
+              </div>
+
+              <div class="text-center md:text-left">
+                <svg class="h-6 inline text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z" />
+                </svg>
+                <p class="text-gray-500 inline">ou 3x R$ 625,00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex h-8 mb-0 justify-center bg-blue-500 items-center">
+            <span class="text-white poppins-bold">Comprar</span>
+          </div>
+
+<!--           <div class="absolute inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center"> <span class="text-white text-xl poppins-bold">Vendido</span></div>      -->
+
+      </div>
+
+    </a>
+
+    <!-- PRODUTO 4 -->
+    <a class="hover:translate-y-[-5px] transition-transform duration-300" target="_blank" href="https://wa.me/5574991967696?text=Ol%C3%A1%2C%20estou%20interessado(a)%20na%20*Academia%20completa%20com%20banco%20ajust%C3%A1vel%2C%20barras%20e%20anilhas%20-%20Megagym*
+    ">
+
+      <div id="produto4" class="bg-white shadow-lg border-gray-200 w-full border-2 border-gray-100 relative">
+    
+          <div class="p-2 flex md:flex-nowrap flex-wrap justify-center items-center">
+            <div class="m-2 flex items-center flex-wrap">
+              <img class="h-56" src="produto4.jfif">
+            </div>
+
+            <div class="md:justify-right">
+              <div class="h-auto text-center md:text-left">
+                Academia completa com banco ajustável, barras e anilhas - Megagym
+              </div>
+
+              <div class="text-xl poppins-bold text-center md:text-left">
+                R$ 950,00
+              </div>
+
+              <div class="mt-6 text-center md:text-left">
+                <svg class="h-6 inline text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>
+                <p class="text-gray-500 inline">à vista</p>
+              </div>
+
+              <div class="text-center md:text-left">
+                <svg class="h-6 inline text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z" />
+                </svg>
+                <p class="text-gray-500 inline">ou 3x R$ 350,00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex h-8 mb-0 justify-center bg-blue-500 items-center">
+            <span class="text-white poppins-bold">Comprar</span>
+          </div>
+
+<!--           <div class="absolute inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center"> <span class="text-white text-xl poppins-bold">Vendido</span></div>      -->
+
+      </div>
+
+    </a>
+
+        <!-- PRODUTO 5 -->
+    <a class="hover:translate-y-[-5px] transition-transform duration-300" target="_blank" href="https://wa.me/5574991967696?text=Ol%C3%A1%2C%20estou%20interessado(a)%20na%20*Geladeira%20Frost-free%20Duplex%20462L%20-%20Brastemp*
+    ">
+
+      <div id="produto5" class="bg-white shadow-lg border-gray-200 w-full border-2 border-gray-100 relative">
+    
+          <div class="p-2 flex md:flex-nowrap flex-wrap justify-center items-center">
+            <div class="m-2 flex items-center flex-wrap">
+              <img class="h-56" src="produto5.jfif">
+            </div>
+
+            <div class="md:justify-right">
+              <div class="h-auto text-center md:text-left">
+                Geladeira Frost-free Duplex 462L - Brastemp
+              </div>
+
+              <div class="text-xl poppins-bold text-center md:text-left">
+                R$ 2.100,00
+              </div>
+
+              <div class="mt-6 text-center md:text-left">
+                <svg class="h-6 inline text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>
+                <p class="text-gray-500 inline">à vista</p>
+              </div>
+
+              <div class="text-center md:text-left">
+                <svg class="h-6 inline text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z" />
+                </svg>
+                <p class="text-gray-500 inline">ou 3x R$ 750,00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex h-8 mb-0 justify-center bg-blue-500 items-center">
+            <span class="text-white poppins-bold">Comprar</span>
+          </div>
+
+<!--           <div class="absolute inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center"> <span class="text-white text-xl poppins-bold">Vendido</span></div>      -->
+
+      </div>
+
+    </a>
+
+    <!-- PRODUTO 6 -->
+    <a class="hover:translate-y-[-5px] transition-transform duration-300" target="_blank" href="https://wa.me/5574991967696?text=Ol%C3%A1%2C%20estou%20interessado(a)%20nas%20*Raquetes%20de%20t%C3%AAnis%20de%20quadra%20-%20Duo*
+    ">
+
+      <div id="produto6" class="bg-white shadow-lg border-gray-200 w-full border-2 border-gray-100 relative">
+    
+          <div class="p-2 flex md:flex-nowrap flex-wrap justify-center items-center">
+            <div class="m-2 flex items-center flex-wrap">
+              <img class="h-56" src="produto6.jfif">
+            </div>
+
+            <div class="md:justify-right md:w-auto">
+              <div class="h-auto text-center md:text-left">
+                Raquetes de tenis de quadra - Duo
+              </div>
+
+              <div class="text-xl poppins-bold text-center md:text-left">
+                R$ 130,00
+              </div>
+
+              <div class="mt-6 text-center md:text-left">
+                <svg class="h-6 inline text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>
+                <p class="text-gray-500 inline">à vista</p>
+              </div>
+
+<!--               <div class="text-center md:text-left">
+                <svg class="h-6 inline text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z" />
+                </svg>
+                <p class="text-gray-500 inline">ou 3x R$ 350,00</p>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="flex h-8 mb-0 justify-center bg-blue-500 items-center">
+            <span class="text-white poppins-bold">Comprar</span>
+          </div>
+
+<!--           <div class="absolute inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center"> <span class="text-white text-xl poppins-bold">Vendido</span></div>      -->
+
+      </div>
+
+    </a>
 
   </main>
 
 </div>
+
 
 <script>
 /*   document.getElementById("toggleButton").addEventListener("click", function () {
